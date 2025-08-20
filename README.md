@@ -8,6 +8,7 @@ The system takes into account several factors such as soil type, climate, rainfa
 Input Data Collection: The system allows users to input relevant data such as soil parameters, climate information, and geographic location.
 Data Preprocessing: The input data is preprocessed to handle missing values, normalize or scale features, and transform categorical variables.
 Machine Learning Models: Various machine learning algorithms are employed, including decision trees, random forests, support vector machines (SVM), and gradient boosting techniques, to build predictive models.
+
 Model Training and Evaluation: The models are trained on historical data and evaluated using appropriate performance metrics to ensure accuracy and reliability.
 Crop Recommendation: Based on the trained models, the system recommends the most suitable crops for the given input parameters.
 User-Friendly Interface: The system provides a user-friendly interface where users can easily input their data, view recommendations, and explore additional information.
@@ -20,11 +21,13 @@ NumPy: Library for numerical computing used for handling arrays and mathematical
 Flask: Web framework used for building the user interface and handling HTTP requests.
 HTML/CSS: Markup and styling languages used for designing the web interface.
 JavaScript: Scripting language used for client-side interactions and enhancing the user interface.
+
 # Installation and Usage
 Clone the repository: git clone https://github.com/your-username/crop-recommendation-system.git
 Install the required dependencies: pip install -r requirements.txt
 Run the application: python app.py
 Access the application through the web browser at http://localhost:5000
+
 # Future Enhancements
 Integration of real-time weather data to improve the accuracy of recommendations.
 Incorporation of crop market prices and profitability analysis to assist farmers in making economically viable decisions.
